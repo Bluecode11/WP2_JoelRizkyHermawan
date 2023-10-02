@@ -44,7 +44,7 @@
 
                 <tr>
                     <td colspan="3" align="center">
-                        <a href="<?=base_url('matakuliah');?>"> Kembali </a>
+                        <a href="<?= base_url('matakuliah');?>"> Kembali </a>
                     </td>
                 </tr>
             </table>
