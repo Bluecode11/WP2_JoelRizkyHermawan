@@ -10,7 +10,7 @@ class Matakuliah extends CI_Controller
     public function cetak()
  {
         $this->form_validation->set_rules(
-              'Kode'
+              'Kode',
               'Kode Matakuliah', 'required|min_length[3]', 
               [
               'required' => 'Kode Matakuliah Harus diisi',
